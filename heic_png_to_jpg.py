@@ -11,7 +11,7 @@ def convert_file(dir,old,new):
 
 path = "YOUR PATH TO FILE IMAGE"
 
-#convert to png and jpg
+#convert to png and jpg(if you want to convert another,  you can change parameter in ext, example: ext=['.png','.PNG','jpeg'] 
 ext = ['.png','.PNG']
 for e in ext:
     convert_file(path,e,".jpg")
