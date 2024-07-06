@@ -2,6 +2,7 @@ import os
 from pathlib import Path
 import shutil
 
+#merge file from multi file
 def unit(file_name):
     data=""
     i=1
@@ -18,7 +19,8 @@ def unit(file_name):
         i=i+1
     with open('./merged_dataset'+file_name,'w') as wd:
         wd.write(data)
-
+        
+#merge folder from multi file
 def merge_img(folder_name):
     i=1
     path="merged_dataset"+folder_name
