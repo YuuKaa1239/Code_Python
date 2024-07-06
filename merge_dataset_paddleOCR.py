@@ -40,7 +40,7 @@ def merge_img(folder_name):
 path="./dataset-text-detection/"
 os.chdir(path)
 
-sub=Path(__file__).parent.absolute
+# sub=Path(__file__).parent.absolute
 
 if os.path.isdir('./merged_dataset'):
     shutil.rmtree("merged_dataset")
